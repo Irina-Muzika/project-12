@@ -1,0 +1,91 @@
+* {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+}
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
+.menu-btn span {
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222222;
+  transition: all 0.5s;
+}
+
+.menu-btn span:nth-of-type(2) {
+  top: calc(50% - 5px);
+}
+
+.menu-btn span:nth-of-type(3) {
+  top: calc(50% + 5px);
+}
+
+.logo-header {
+  max-width: 101px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.logo-trello {
+  max-width: 22px;
+  width: 100%;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .logo-trello {
+    display: none;
+  }
+}
+
+.bg-chair {
+  background-image: url(../img/chair.jpg);
+  background-size: cover;
+  width: 100%;
+  max-width: 1232px;
+}
+
+.categories {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .categories {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.search {
+  max-width: 17px;
+  width: 100%;
+}
+
+.list {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
