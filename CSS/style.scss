@@ -204,10 +204,11 @@
                 display: flex;
                 align-items: center;
                 color: #FFFFFF;
-                @media screen and (min-width: 768px){
+
+                @media screen and (min-width: 768px) {
                     font-size: 48px;
                     line-height: 48px;
-                 
+
                 }
 
             }
@@ -219,15 +220,16 @@
                 font-size: 18px;
                 line-height: 28px;
                 color: #ECECEC;
-                @media screen and (min-width: 768px){
+
+                @media screen and (min-width: 768px) {
                     font-size: 20px;
-                
+
                 }
             }
 
             &-button {
                 width: 180px;
-                height: 45px;   
+                height: 45px;
                 font-family: 'Proxima Nova';
                 font-style: normal;
                 font-weight: 700;
@@ -238,7 +240,8 @@
                 justify-content: center;
                 text-transform: uppercase;
                 color: #040404;
-                @media screen and (min-width: 768px){
+
+                @media screen and (min-width: 768px) {
                     width: 180px;
                     height: 52px;
                     font-size: 16px;
@@ -250,45 +253,50 @@
         }
     }
 }
-.bg-opasity{
+
+.bg-opasity {
     background-image: url(../img/flowers.svg);
     background-size: contain;
-background-repeat: repeat-x;
-height: 517px;
+    background-repeat: repeat-x;
+    height: 517px;
 
 }
 
-.mt-350{
+.mt-350 {
     margin-top: 350px;
-    @media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px) {
         margin-top: 50px;
     }
 }
+
 .carousel {
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         display: none;
     }
 }
-.carousel-h{
-   
+
+.carousel-h {
+
     font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 48px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-color: #111010;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #111010;
 
 
-@media screen and (min-width: 768px){
-    font-size: 48px;
-    margin-top: 10px;
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        margin-top: 10px;
+    }
 }
-}
-.carousel-p{
+
+.carousel-p {
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 400;
@@ -297,9 +305,10 @@ color: #111010;
     text-align: center;
     justify-content: center;
     color: #616161;
-    @media screen and (min-width: 768px){
-font-size: 20px;
-line-height: 28px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 28px;
 
     }
 }
@@ -311,7 +320,7 @@ line-height: 28px;
     width: 100%;
 }
 
-.carousel-open:checked + .carousel-item {
+.carousel-open:checked+.carousel-item {
     position: static;
     opacity: 100;
 }
@@ -330,7 +339,7 @@ line-height: 28px;
 }
 
 .carousel-control {
-    background:white;
+    background: white;
     color: black;
     cursor: pointer;
     display: none;
@@ -361,15 +370,15 @@ line-height: 28px;
     color: #aaaaaa;
 }
 
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
+#carousel-1:checked~.control-1,
+#carousel-2:checked~.control-2,
+#carousel-3:checked~.control-3 {
     display: block;
 }
 
 .carousel-indicators {
     list-style: none;
-margin-top: 100px;
+    margin-top: 100px;
     bottom: 2%;
     left: 0;
     right: 0;
@@ -390,12 +399,12 @@ margin-top: 100px;
 }
 
 .carousel-bullet:hover {
-    color:grey;
+    color: grey;
 }
 
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+#carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #428bca;
 }
 
@@ -411,22 +420,24 @@ margin-top: 100px;
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
-.box-after-slide{
-   display: flex;
-   flex-direction: column;
-   background-color: black;
-   border: 1px solid black;
-   width: 361px;
-height: 93px;
-justify-content: center;
-align-items: center;
-text-align: center;
-left: 5%;
-position: absolute;
-margin-top: -50px;
+
+.box-after-slide {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid black;
+    width: 361px;
+    height: 93px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 5%;
+    position: absolute;
+    margin-top: -50px;
 
 }
-.box-after-slide-h{
+
+.box-after-slide-h {
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 600;
@@ -435,7 +446,8 @@ margin-top: -50px;
     text-align: center;
     color: #FFFFFF;
 }
-.box-after-slide-p{
+
+.box-after-slide-p {
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 400;
@@ -444,9 +456,11 @@ margin-top: -50px;
     text-align: center;
     color: #B4B4B4;
 }
-.slide-img{
+
+.slide-img {
     display: none;
-    @media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px) {
         display: block;
         display: flex;
         gap: 30px;
@@ -454,247 +468,354 @@ margin-top: -50px;
         margin-top: 40px;
     }
 }
-.desktop-slide{
+
+.desktop-slide {
     display: flex;
     flex-direction: column;
     gap: 70px;
 }
-.desctop-slide-img-1{
-position: relative;
+
+.desctop-slide-img-1 {
+    position: relative;
 }
-.desctop-border-1{
+
+.desctop-border-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 535px;
-height: 114px;
-background: #111010;
-border: 1px solid #FFFFFF;
-position: absolute;
-margin-top: -100px;
-left: 3%;
-gap: 10px;
+    height: 114px;
+    background: #111010;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    margin-top: -100px;
+    left: 3%;
+    gap: 10px;
 }
-.desctop-slide-h{
+
+.desctop-slide-h {
     font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 28px;
-text-align: center;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
 }
-.desctop-slide-p{
+
+.desctop-slide-p {
     font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-text-align: center;
-color: #B4B4B4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #B4B4B4;
 }
-.desctop-slide-img-2{
+
+.desctop-slide-img-2 {
     position: relative;
 }
-.desctop-border-2{
+
+.desctop-border-2 {
     position: absolute;
     width: 299px;
     height: 114px;
     background: #111010;
     border: 1px solid #FFFFFF;
     margin-top: -100px;
-    left:5% ;
+    left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
-.desctop-slide-img-3{
+
+.desctop-slide-img-3 {
     position: relative;
 }
-.desctop-border-3{
+
+.desctop-border-3 {
     position: absolute;
-width: 415px;
-height: 114px;
-background: #111010;
-border: 1px solid #FFFFFF;
-margin-top: -100px;
-    left:5% ;
+    width: 415px;
+    height: 114px;
+    background: #111010;
+    border: 1px solid #FFFFFF;
+    margin-top: -100px;
+    left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 
 }
-.desctop-slide-img-4{
+
+.desctop-slide-img-4 {
     position: relative;
 }
-.desctop-border-4{
+
+.desctop-border-4 {
     position: absolute;
-width: 415px;
-height: 114px;
-margin-top: -100px;
-    left:5% ;
+    width: 415px;
+    height: 114px;
+    margin-top: -100px;
+    left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-background: #111010;
-border: 1px solid #FFFFFF;
+    background: #111010;
+    border: 1px solid #FFFFFF;
 }
-.vision{
+
+.vision {
     margin-top: 200px;
-    @media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px) {
         display: flex;
-       justify-content: center;
-       
-    }
-   
-    &-container{
-    margin: auto;
- padding: 20px 20px 35px;
-        width: 388px;
-height: 369px;
-background: #F7F7F7;
-display: flex;
-flex-direction: column;
-justify-content: center;
-position: relative;
-transform: translateY(100px);
-    z-index: 2;
-    @media screen and (min-width: 768px){
-margin-top: 200px;
-margin-left: 200px;
-display: flex;
-width: 708px;
-height: 402px;
+        justify-content: center;
+
     }
 
-        &-h{
+    &-container {
+        margin: auto;
+        padding: 20px 20px 35px;
+        width: 388px;
+        height: 369px;
+        background: #F7F7F7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        transform: translateY(100px);
+        z-index: 2;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 170px;
+            margin-left: 200px;
+            display: flex;
+            width: 708px;
+            height: 402px;
+        }
+
+        &-h {
             font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 48px;
-display: flex;
-align-items: center;
-color: #111010;
-@media screen and (min-width: 768px){
-    font-size: 48px;
-  
-}
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 48px;
+            display: flex;
+            align-items: center;
+            color: #111010;
+
+            @media screen and (min-width: 768px) {
+                font-size: 48px;
+
+            }
 
         }
-        &-p{
+
+        &-p {
             font-family: 'Proxima Nova';
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
             line-height: 28px;
             color: #616161;
-  
-            }
-            
-        &-button{
+
+        }
+
+        &-button {
             width: 180px;
             height: 45px;
             background: #111010;
             font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-top: 24px;
+            justify-content: center;
+
+            @media screen and (min-width: 768px) {
+                width: 180px;
+                height: 52px;
+
+            }
+
+        }
+
+        &-img {
+            position: absolute;
+
+            &-smal {
+                min-width: 428px;
+
+                @media screen and (min-width: 768px) {
+                    display: none;
+                }
+
+            }
+
+            &-desktop {
+                display: none;
+
+                @media screen and (min-width: 768px) {
+                    display: block;
+                    margin-top: 200px;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+.bg-content {
+  
+    @media screen and (min-width: 768px) {
+        display: block;
+        background-image: url(../img/section4.svg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+.content {
+    margin-top: 700px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 250px;
+       margin-left: 249px;
+    }
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        @media screen and (min-width: 768px){
+            display: flex;
+            flex-direction: row;
+            gap: 66px;
+           
+        }
+
+        &-h {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #111010;
+            @media screen and (min-width: 768px){
+            font-size: 48px;
+            line-height: 58px;
+            width: 565px;
+            height: 117px;
+            text-align: start;
+            margin-left: 20px;
+
+            }
+
+        }
+
+        &-p {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            color: #616161;
+            @media screen and (min-width: 768px){
+                width: 610px;
+                height: 112px;
+                text-align: start;
+                margin-left: 20px;
+            }
+
+        }
+
+        &-img {
+            display: flex;
+            justify-content: center;
+            gap: 66px;
+        }
+    }
+}
+
+.content-container-img-yallow-chair {
+    display: none;
+    @media screen and (min-width: 768px){
+display: block;
+width: 257px;
+height: 325px;
+    }
+}
+
+.content-container-img-puff {
+    display: none;
+    @media screen and (min-width: 768px){
+display: block;
+width: 257px;
+height: 325px;
+    }
+}
+
+.content-container-img-mirror {
+    width: 388px;
+    height: 325px;
+    height: 325px;
+    transform: translate(0, 10px);
+    @media screen and (min-width: 768px){
+        width: 257px;
+        height: 325px;
+            }
+    
+}
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+   
+}
+.content-container-img-video{
+    display: none;
+    @media screen and (min-width: 768px){
+        display: block;
+    }
+}
+.content-container-img-button{
+    display: none;
+    @media screen and (min-width: 768px){
+        display: block;
+    width: 180px;
+height: 52px;
+background: #111010;
+font-family: 'Proxima Nova';
 font-style: normal;
 font-weight: 700;
-font-size: 15px;
-line-height: 15px;
+font-size: 16px;
+line-height: 19px;
 display: flex;
 align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
-margin-top: 24px;
 justify-content: center;
-@media screen and (min-width: 768px){
-    width: 180px;
-    height: 52px;
- 
-}
-
- }
-        &-img{
-            position: absolute;
-
-        &-smal{
-           min-width: 428px;
-           @media screen and (min-width: 768px){
-            display: none;
-           }
-            
-        }
-        &-desktop{
-display: none;
-@media screen and (min-width: 768px){
-    display: block;
-    margin-top: 200px;
-    justify-content: center;
-    align-items: center;
-}
-        }
-    }
-    }
-}
-
-// .bg-content{
-//     display: none;
-//     @media screen and (min-width: 768px){
-//         display: block;
-//     background-image: url(../img/section4.svg);
-//    background-repeat: repeat;
-//    background-size: cover;
-//     }
-// }
-.content{
-   margin-top: 700px;
-   @media screen and (min-width: 768px){
-    margin-top: 250px;
-   }
-   &-container{
-display: flex;
-flex-direction: column;
-gap: 20px;
-   
-   &-h{
-    font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #111010;
-
-   }
-   &-p{
-    font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #616161;
-
-   }
-   &-img{
-   
-   }
 }
 }
-   .contant-container-img-yallow-chair{
-    display: none;
-   }
-   .contant-container-img-puff{
-    display: none;
-   }
-   contant-container-img-mirror{
-    width: 388px;
-    height: 325px;
-   }
+.d-flex-col-gap{
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+
 
