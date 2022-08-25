@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Saira:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -150,51 +152,54 @@
     <section class="content bg-content container">
         <div class="content-container">
             <div class="d-flex-col">
-            <h1 class="content-container-h">Creative Solutions
-                by Professional Designers</h1>
-            <p class="content-container-p">Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent
-                dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex
-                ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo.
-            </p>
-            <div class="carusel">
-                <div class="carusel-inner">
-                    <input class="carusel-open" type="radio" id="carusel-1" name="carusel" aria-hidden="true" hidden=""
-                        checked="checked">
-                    <div class="carusel-item">
-                        <img src="./img/mirror.jpg">
+                <h1 class="content-container-h">Creative Solutions
+                    by Professional Designers</h1>
+                <p class="content-container-p">Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent
+                    dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh
+                    ex
+                    ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo.
+                </p>
+                <div class="carusel">
+                    <div class="carusel-inner">
+                        <input class="carusel-open" type="radio" id="carusel-1" name="carusel" aria-hidden="true"
+                            hidden="" checked="checked">
+                        <div class="carusel-item">
+                            <img src="./img/mirror.jpg">
+                        </div>
+                        <input class="carusel-open" type="radio" id="carusel-2" name="carousell" aria-hidden="true"
+                            hidden="">
+                        <div class="carousell-item">
+                            <img src="./img/chair.jpg">
+                        </div>
+                        <input class="carusel-open" type="radio" id="carusel-3" name="carusel" aria-hidden="true"
+                            hidden="">
+                        <div class="carusel-item">
+                            <img src="./img/puff.jpg">
+                        </div>
+
+
+                        <label for="carusel-3" class="carusel-control prev control-1">‹</label>
+                        <label for="carusel-2" class="carusel-control next control-1">›</label>
+                        <label for="carusel-1" class="carusel-control prev control-2">‹</label>
+                        <label for="carusel-3" class="carusel-control next control-2">›</label>
+                        <label for="carusel-2" class="carusel-control prev control-3">‹</label>
+                        <label for="carusel-1" class="carusel-control next control-3">›</label>
+
                     </div>
-                    <input class="carusel-open" type="radio" id="carusel-2" name="carousell" aria-hidden="true" hidden="">
-                    <div class="carousell-item">
-                        <img src="./img/chair.jpg">
+                </div>
+
+
+                <div class="content-container-img">
+                    <div class="d-flex-col-gap">
+                        <img class="content-container-img-mirror" src="./img/mirror.jpg" alt="">
+                        <button class="content-container-img-button">Read more</button>
                     </div>
-                    <input class="carusel-open" type="radio" id="carusel-3" name="carusel" aria-hidden="true" hidden="">
-                    <div class="carusel-item">
-                        <img src="./img/puff.jpg">
-                    </div>
-                  
-    
-                    <label for="carusel-3" class="carusel-control prev control-1">‹</label>
-                    <label for="carusel-2" class="carusel-control next control-1">›</label>
-                    <label for="carusel-1" class="carusel-control prev control-2">‹</label>
-                    <label for="carusel-3" class="carusel-control next control-2">›</label>
-                    <label for="carusel-2" class="carusel-control prev control-3">‹</label>
-                    <label for="carusel-1" class="carusel-control next control-3">›</label>
-                 
+
+                    <img class="content-container-img-yallow-chair" src="./img/yallow-chair.jpg" alt="">
+                    <img class="content-container-img-puff" src="./img/puff.jpg" alt="">
+
                 </div>
             </div>
-
-
-            <div class="content-container-img">
-                <div class="d-flex-col-gap">
-                <img class="content-container-img-mirror" src="./img/mirror.jpg" alt="">
-                <button class="content-container-img-button">Read more</button>
-            </div>
-
-                <img class="content-container-img-yallow-chair" src="./img/yallow-chair.jpg" alt="">
-                <img class="content-container-img-puff" src="./img/puff.jpg" alt="">
-               
-            </div>
-        </div>
             <div class="content-container-img-video">
                 <img src="./img/video.jpg" alt="">
             </div>
@@ -204,29 +209,32 @@
     </section>
 
     <section class="container ">
-        <h1 class="carousell-h">Products</h1>
+        <h1 class="carousell-h">Projects</h1>
         <div class="carousell-line"></div>
-        <p class="carousell-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        <p class="carousell-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has
             been the industry's standard dummy text.</p>
-           
+
         <div class="carousell">
             <div class="carousell-inner">
-                <input class="carousell-open" type="radio" id="carousell-1" name="carousell" aria-hidden="true" hidden=""
-                    checked="checked">
+                <input class="carousell-open" type="radio" id="carousell-1" name="carousell" aria-hidden="true"
+                    hidden="" checked="checked">
                 <div class="carousell-item">
                     <img src="./img/mall.jpg">
                     <h1 class="carousell-mall">Dubai mall</h1>
                     <p class="carousell-wood">Wood Flooring</p>
                 </div>
-                <input class="carousell-open" type="radio" id="carousell-2" name="carousell" aria-hidden="true" hidden="">
+                <input class="carousell-open" type="radio" id="carousell-2" name="carousell" aria-hidden="true"
+                    hidden="">
                 <div class="carousell-item">
                     <img src="./img/kingdom.jpg">
                 </div>
-                <input class="carousell-open" type="radio" id="carousell-3" name="carousell" aria-hidden="true" hidden="">
+                <input class="carousell-open" type="radio" id="carousell-3" name="carousell" aria-hidden="true"
+                    hidden="">
                 <div class="carousell-item">
                     <img src="./img/oficer.jpg">
                 </div>
-              
+
 
                 <label for="carousell-3" class="carousell-control prev control-1">‹</label>
                 <label for="carousell-2" class="carousell-control next control-1">›</label>
@@ -234,17 +242,143 @@
                 <label for="carousell-3" class="carousell-control next control-2">›</label>
                 <label for="carousell-2" class="carousell-control prev control-3">‹</label>
                 <label for="carousell-1" class="carousell-control next control-3">›</label>
-             
+
             </div>
         </div>
-        <div class="carousell-a-button">
-           <a class="carousell-a" href=""><button class="carousell-button">View All</button></a> 
-        </div>
        
+        <div class="carousell-after">
+            <div>
+                <img src="./img/kingdom.jpg" alt="">
+                <h1 class="font-h-26">Kingdom Tower</h1>
+                <p class="font-p-16">Marble Flooring</p>
+            </div>
+            <div>
+                <img src="./img/mall.jpg" alt="">
+                <h1 class="font-h-26">Dubai mall</h1>
+                <p class="font-p-16">Wood Flooring</p>
+            </div>
+            <div>
+                <img src="./img/oficer.jpg" alt="">
+                <h1 class="font-h-26">King Road Offices</h1>
+                <p class="font-p-16">Outdoor Flooring</p>
+            </div>
+            <div>
+                <img src="./img/tower.jpg" alt="">
+                <h1 class="font-h-26">Beach Tower Alupang</h1>
+                <p class="font-p-16">Wood Flooring</p>
+            </div>
+        </div> 
+        <div class="carousell-a-button">
+            <button class="carousell-button">View All</button>
+          </div>
+
+    </section>
+    <section>
+        <div class="block">
+            <h1 class="fs-h-dt-48">Tile Collections</h1>
+            <div class="carousell-line"></div>
+            <p class="fs-p-dt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <div class="d-flex">
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-1.jpg" alt="">
+                <h1 class="fs-h-dt-26">Zurich Vision 60×60</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
+            </div>
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-2.jpg" alt="">
+                <h1 class="fs-h-dt-26">Zurich Pearl 60×60</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>312.49 SAR</p>
+            </div>
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-3.jpg" alt="">
+                <h1 class="fs-h-dt-26">Zurich Grey 60×60</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>312.49 SAR</p>
+            </div>
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-4.jpg" alt="">
+                <h1 class="fs-h-dt-26">Zurich Dark Grey 60×60</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>312.49 SAR</p>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-5.jpg" alt="">
+                <h1 class="fs-h-dt-26">Windsor White Oak</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
+            </div>
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-6.jpg" alt="">
+                <h1 class="fs-h-dt-26">ZSicily Grey Décor 30×60</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
+            </div>
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-7.jpg" alt="">
+                <h1 class="fs-h-dt-26">Sardinia White</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
+            </div>
+            <div class="d-flex-dt-col">
+                <img class="col-img" src="./img/col-8.jpg" alt="">
+                <h1 class="fs-h-dt-26">Sicily Grey 30×60</h1>
+               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
+            </div>
+        </div>
+        <button class="but-w-210">more PRODUCTS</button>
+        </div>
     </section>
 
+    <section class="box">
+            <div class="box-cnt">
+                <h1 class="box-cnt-h">Our Showrooms</h1>
+                <p class="box-cnt-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                <button class="box-cnt-button">Learn more</button>
+            </div>
+            <div class="box-img">
+                <img class="box-img-last-build" src="./img/last-build.jpg " alt="">
+            </div>
+            <img class="box-last-flower" src="./img/last-flower.svg" alt="">
+        
+    </section>
+    <footer class="footer-bgc">
+       
+        <div class="contact">
+            <div class="contact-picture">
+            <img class="contact-logo" src="./img/logo-footer.svg" alt="">
+        </div>
+        <div class="mt-38">
+            <div class="list">
+                <p class="list-p-1">Products</p>
+                <img class="list-img-1" src="./img/text-1.svg" alt="">
+            </div>
+            <div class="list">
+                <p class="list-p-2">Services</p>
+                <img class="list-img-1" src="./img/text-2.svg" alt="">
+            </div>
+            <div class="list-inf">
+                <p class="list-p-3">Contact information</p>
+                <img class="list-img-1" src="./img/text-3.svg" alt="">
+            </div>
+            <div class="list-line"></div>
+        </div>
+    </div>
+        <div class="list-desktop">
+            <div class="list-desktop-pictures">
+                <img class="list-desktop-pictures-img" src="./img/facebook.svg" alt="">
+                <img class="list-desktop-pictures-img2"src="./img/twitter.svg" alt="">
+                <img class="list-desktop-pictures-img3"src="./img/inst.svg" alt="">
+            </div>
+            <div class="list-desktop-p">
+                <div>
+                <p class="list-desktop-p-end">Copyright © 2022 | All Rights Reserved.</p>
+            </div>
+            <div>
+                <p class="list-desktop-p-end">Created with love by thecreation.design</p>
+            </div>
+            </div>
+        </div>
+    </footer>
 
-    
+
+
 </body>
 
 </html>
