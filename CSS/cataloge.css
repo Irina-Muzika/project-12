@@ -7,10 +7,11 @@
 .catalog {
   background-image: url(../img/catalog.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 526vw;
+  background-position: center;
+  background-size: cover;
   background-color: #808080;
   background-blend-mode: multiply;
+  height: 526px;
 }
 .catalog-h {
   font-family: "Proxima Nova";
@@ -20,7 +21,7 @@
   line-height: 72px;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding: 227px 0 0;
+  margin-top: 227px;
 }
 .catalog-p {
   font-family: "Proxima Nova";
@@ -37,4 +38,65 @@
   display: flex;
   flex-direction: column;
   gap: 31px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+.gallery-img {
+  display: flex;
+  gap: 32px;
+}
+.gallery-img-black {
+  background-image: url(../img/black-scv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 328px;
+  width: 100%;
+  height: 401px;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 46px 0 27px;
+  gap: 20px;
+}
+.gallery-img-black-p1 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.gallery-img-black-h {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.gallery-img-black-p2 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #BCBCBC;
+}
+
+.gallery-img-two {
+  position: relative;
+}
+.gallery-img-two-lounge {
+  max-width: 328px;
+  width: 100%;
+}
+.gallery-img-two .gallery-inf {
+  position: absolute;
+  top: 72%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }/*# sourceMappingURL=cataloge.css.map */

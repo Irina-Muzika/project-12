@@ -264,7 +264,7 @@
     background-image: url(../img/flowers.svg);
     background-size: contain;
     background-repeat: repeat-x;
-    height: 517px;
+  
 
 }
 
@@ -710,6 +710,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        justify-content: center;
 
         @media screen and (min-width: 768px) {
             display: flex;
