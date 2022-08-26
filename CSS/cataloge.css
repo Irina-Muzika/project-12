@@ -1,0 +1,40 @@
+.container {
+  padding-left: 249px;
+  padding-right: 249px;
+  margin: auto;
+}
+
+.catalog {
+  background-image: url(../img/catalog.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 526vw;
+  background-color: #808080;
+  background-blend-mode: multiply;
+}
+.catalog-h {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 227px 0 0;
+}
+.catalog-p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #E4E4E4;
+  max-width: 657px;
+  max-height: 56px;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}/*# sourceMappingURL=cataloge.css.map */
