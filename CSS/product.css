@@ -1,0 +1,59 @@
+.product-bg {
+  background-image: url(../img/section-4-flovers-header.png);
+  background-image: url(../img/page-4-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 112px;
+}
+.product-bg-containerr {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 35px;
+}
+.product-bg-containerr-col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.product-bg-containerr-col-p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.product-bg .product-home::after {
+  content: ">";
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+.product-bg .product-home {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.product-bg .product-table::after {
+  content: ">";
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+.product-bg .product-table {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.product-line {
+  width: 152px;
+  height: 3px;
+  background: #C4C4C4;
+}/*# sourceMappingURL=product.css.map */
