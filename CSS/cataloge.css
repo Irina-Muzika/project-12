@@ -217,6 +217,13 @@
   }
 }
 
+@media screen and (max-width: 776px) {
+  .containerr {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
 .baner-flex {
   display: flex;
   flex-direction: column;

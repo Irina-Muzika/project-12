@@ -1389,7 +1389,8 @@
     @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: row-reverse;
-        margin: auto;
+        align-items: center;
+       
     }
 
     &-cnt {
@@ -1409,7 +1410,8 @@
             width: 692px;
             height: 522px;
             background: #F9F9F9;
-            transform: translateY(62%);
+          transform: translateY(0);
+          margin-right: auto;
         }
 
 
@@ -1480,16 +1482,17 @@
     }
 
     &-img {
-        margin: auto;
+       
+        
 
         &-last-build {
-            width: 100%;
+          
             position: absolute;
-
             @media screen and (min-width: 768px) {
                 width: 817px;
                 height: 649px;
                 justify-content: center;
+               
             }
         }
     }
@@ -1510,7 +1513,7 @@
 }
 
 .footer-bgc{
-    margin-top: 665px;
+    margin-top: 640px;
     min-height: 345px;
     background-color:  #111010;
    @media screen and (min-width: 768px){
