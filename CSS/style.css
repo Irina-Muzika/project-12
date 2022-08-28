@@ -20,7 +20,7 @@
 }
 .btn {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 20px;
 }
 
@@ -101,9 +101,11 @@
   .categories {
     display: block;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 33px;
     margin-top: 39px;
+    max-width: 1422px;
+    margin: auto;
   }
 }
 
@@ -1347,6 +1349,7 @@
   position: relative;
   transform: translateY(20%);
   z-index: 2;
+  margin-left: -80px;
 }
 @media screen and (min-width: 768px) {
   .box-cnt {
@@ -1419,7 +1422,7 @@
   }
 }
 .box-img-last-build {
-  position: absolute;
+  position: unset;
 }
 @media screen and (min-width: 768px) {
   .box-img-last-build {

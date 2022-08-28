@@ -6,20 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/normalize.css">
-    <link rel="stylesheet" href="./CSS/product.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/cart.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Saira:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Saira:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <div class="btn container">
+    <header class="containerr">
+        <div class="btn">
             <div class="menu-btn">
                 <span></span>
                 <span></span>
@@ -28,7 +25,7 @@
             <a class="logo-header" href=""><img src="./img/logo-header.svg" alt=""></a>
             <a class="logo-trello" href=""> <img src="./img/trello.svg" alt=""></a>
         </div>
-        <div class="categories">
+        <div class="categories containerr">
             <a class="search" href=""><img src="./img/search.svg" alt=""></a>
             <div class="price">
                 <a class="list-home" href="">Home</a>
@@ -46,67 +43,99 @@
             </div>
         </div>
     </header>
-    <section class="product-bg">
-        <div class="product-bg-containerr containerr">
-           <p class="product-home">Home</p>
-           <p class="product-table">Table</p>
-           <div class="product-bg-containerr-col">
-           <p class="product-bg-containerr-col-p">Product Name</p>
-           <div class="product-line"></div>
-        </div>
-        </div>
-    </section>
     <section>
-        <div class="containerr d-flex">
-            <div class="production-img">
-                <div>
-                <img class="production-img-1" src="./img/section3-1.png" alt="">
+        <div class="containerr ">
+            <div>
+            <div class="prise">
+            <h2 class="prise-h">Shopping Cart</h2>
+            <p class="prise-p">Continue Shopping</p>
+        </div>
+        <div class="d-flexx">
+          <div class="grid-container">
+            <div></div>
+            <div>Unit Price</div>
+            <div>QTY</div>
+            <div >Total SAR</div>
+            <div><img src="./img/cart-price.png" alt=""></div>
+            <div class="rubish-p">199.00</div>
+            <div class="chex-box">
+               <p class="chek-box-1">-</p>
+               <p class="chek-box-2">1</p>
+               <p class="chek-box-3">+</p>
             </div>
-                <div class="production-img-flex">
-                <img class="production-width" src="./img/section3-2.png" alt="">
-                <img src="./img/section3-3.png" alt="">
-                <img class="production-img-4" src="./img/section4-4.png" alt="">
+            <div class="rubish">
+                <p class="rubish-p">199.00</p>
+                <img class="rubish-img" src="./img/delete 1.svg" alt="">
             </div>
+            <div><img src="./img/cart-price.png" alt=""></div>
+            <div class="rubish-p">199.00</div>
+            <div class="chex-box">
+               <p class="chek-box-1">-</p>
+               <p class="chek-box-2">1</p>
+               <p class="chek-box-3">+</p>
             </div>
-            <div class="production-name">
-                <h2 class="production-name-h">Product Name</h2>
-                <p class="production-name-p1">199,50 SAR</p>
-                <p class="production-name-p2">Product Short Description senectus et netus et malesuada fames ac turpis egestas. Vesitbulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend </p>
-                <div class="production-name-button">
-                    <button class="production-name-button-1">
-                        <span class="fs-2rem">-</span>
-                        <span class="fs-2rem">1</span>
-                        <span class="fs-2rem">+</span>
-                    </button>
-                    <button class="production-name-button-2">Add to cart</button>
-                    <button class="production-name-button-img"><img src="./img/section3-heart 1.svg" alt=""></button>
-                </div>
-             
-                    <ul class="production-name-ul">
-                        <li class="production-name-li">Lorem ipsum dolor sit amet,</li>
-                        <li class="production-name-li">Lorem ipsum dolor sit amet,</li>
-                        <li class="production-name-li">Lorem ipsum dolor sit amet,</li>
+            <div class="rubish">
+                <p class="rubish-p">199.00</p>
+                <img class="rubish-img" src="./img/delete 1.svg" alt="">
+            </div>
+            <div><img src="./img/cart-price.png" alt=""></div>
+            <div class="rubish-p">199.00</div>
+            <div class="chex-box">
+               <p class="chek-box-1">-</p>
+               <p class="chek-box-2">1</p>
+               <p class="chek-box-3">+</p>
+            </div>
+            <div class="rubish">
+                <p class="rubish-p">199.00</p>
+                <img class="rubish-img" src="./img/delete 1.svg" alt="">
+            </div>
+          </div>
+          <div class="grid-container2">
+            <div></div>
+            <div>Unit Price</div>
+            <div><img src="./img/cart-price.png" alt=""></div>
+            <div>199.00</div>
+            <div><img src="./img/cart-price.png" alt=""></div>
+            <div>199.00</div>
+        </div>
+      
+          <div class="optional-width">
+            <div class="optional">
+                <h2 class="optional-h">Do you have a voucher?</h2>
+                <p class="optional-p">(Optional)</p>
+                <span class="optional-span">^</span>
+            </div>
+            <div class="optional-buttons">
+                <button class="optional-button-enter">Enter the code</button>
+                <button class="optional-button-redeem">Redeem</button>
+            </div>
+            <div class="subtotal">
+                <h2 class="subtotal-h">Subtotal</h2>
+                <p class="subtotal-p">138,00 SAR</p>
+            </div>
+            <div class="shipping">
+                <p class="shipping-p1">shipping</p>
+                <p class="shipping-p2">5,91 SAR</p>
+            </div>
+            <div class="total">
+                <h2 class="total-h">Total</h2>
+                <p class="total-p1">(VAT included.)</p>
+                <p class="total-p2">143,91 SAR</p>
+            </div>
+            <div class="safe">
+                <button class="safe-button">Safe to checkout</button>
+            </div>
+          </div>
+        </div>
+        </div>
+       
 
-                    </ul>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="containerr">
-            <div class="text">
-            <h2 class="text-h1">Description</h2>
-        <h2 class="text-h2">Details</h2>
-        <h2 class="text-h2">Reviews(0)</h2>
-        </div>
-        <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare euismod arcu, ac laoreet metus pulvinar feugiat. Praesent in feugiat ante, a dictum nunc. Pellentesque convallis tortor quis purus finibus aliquet. In hac habitasse platea dictumst. Proin vestibulum ante ac faucibus tristique. Integer quis efficitur dolor, at dignissim dolor.</p>
-        </div>
+
 
     </section>
     <section>
         <div class="block">
-            <h1 class="fs-h-dt-48">Related Products</h1>
-           
-    
+            <h1 class="fs-h-dt-48">Recently Viewed Products</h1>
             <div class="d-flex">
             <div class="d-flex-dt-col">
                 <img class="col-img" src="./img/col-1.jpg" alt="">
@@ -129,32 +158,8 @@
                <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>312.49 SAR</p>
             </div>
         </div>
-        <div class="d-flex">
-            <div class="d-flex-dt-col">
-                <img class="col-img" src="./img/col-5.jpg" alt="">
-                <h1 class="fs-h-dt-26">Windsor White Oak</h1>
-               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
-            </div>
-            <div class="d-flex-dt-col">
-                <img class="col-img" src="./img/col-6.jpg" alt="">
-                <h1 class="fs-h-dt-26">ZSicily Grey Décor 30×60</h1>
-               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
-            </div>
-            <div class="d-flex-dt-col">
-                <img class="col-img" src="./img/col-7.jpg" alt="">
-                <h1 class="fs-h-dt-26">Sardinia White</h1>
-               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
-            </div>
-            <div class="d-flex-dt-col">
-                <img class="col-img" src="./img/col-8.jpg" alt="">
-                <h1 class="fs-h-dt-26">Sicily Grey 30×60</h1>
-               <p class="fs-p-dt-18"><span class="fs-span-dt-12">449.99 SAR</span>237.99 SAR</p>
-            </div>
-        </div>
-        <button class="but-w-210">more PRODUCTS</button>
-        </div>
     </section>
-    <footer class="footer-bg">
+    <footer class="footer-bgc mt-100px">
         <div class="containerr">
         <div class="contact">
             <div class="contact-picture">
@@ -191,8 +196,7 @@
             </div>
             </div>
         </div>
-    </div>
+        </div>
     </footer>
-    
 </body>
 </html>

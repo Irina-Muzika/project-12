@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/check-out.css">
+    <link rel="stylesheet" href="./CSS/cart.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Saira:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="btn container">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a class="logo-header" href=""><img src="./img/logo-header.svg" alt=""></a>
+            <a class="logo-trello" href=""> <img src="./img/trello.svg" alt=""></a>
+        </div>
+        <div class="categories ">
+            <a class="search" href=""><img src="./img/search.svg" alt=""></a>
+            <div class="price">
+                <a class="list-home" href="">Home</a>
+                <a class="list" href="">Spaces</a>
+                <a class="list" href="">Products & Services</a>
+                <a class="list" href="">Showrooms</a>
+                <a class="list" href="">Company</a>
+                <a class="list" href="">Media</a>
+                <a class="list" href="">CONTACT</a>
+            </div>
+            <div class="list-logo">
+                <a class="list-trello" href=""><img src="./img/trello.svg" alt=""></a>
+                <a class="list-heart" href=""><img src="./img/heart.svg" alt=""></a>
+                <a class="list-people" href=""><img src="./img/people.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <!-- <section class="bg-block "> -->
+    <div class="containerr">
+        <div>
+            <div class="prise ">
+                <h2 class="prise-h">Shopping Cart</h2>
+                <p class="prise-p">Continue Shopping</p>
+            </div>
+            <div class="d-fl-cen">
+                <div class="d-fl-col">
+                    <div class="check-form">
+                        <button class="check-form-button-black">Mrs.</button>
+                        <button class="check-form-button-white">Mr.</button>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="First-name" type="text" name="First name" value="First name*">
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="Last-name" type="text" name="Last name" value="Last name*">
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="email" type="text" name="email" value="E-Mail">
+                        </form>
+                    </div>
+                    <div>
+                        <form class="Street-form">
+                            <input id="street" type="text" name="Street" value="Street*">
+                            <input id="houses" type="text" name="Houses" value="Houses*">
+                        </form>
+                    </div>
+                    <div>
+                        <form class="PostCode-label">
+                            <input id="postcode" type="text" name="PostCode" value="PostCode*">
+                            <input id="location" type="text" name="Location" value="Location*">
+                        </form>
+                    </div>
+                    <div>
+                        <form class="Select-Country">
+                            <input id="select" type="text" name="Select-Country" value="Select Country">
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="phone-number" type="text" name="Phone-Number" value="Phone Number">
+
+                        </form>
+                    </div>
+                    <div class="Required">
+                        <p class="Required-p">*Required field</p>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="create" type="checkbox">
+                            <label class="create-label" for="create">Create a customer account now and benefit from many
+                                advantages.</label>
+                        </form>
+                    </div>
+                    <div class="circle">
+                        <img src="./img/circle.svg" alt="">
+                        <p class="circle-p">The password will be sent to you by email</p>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="address" type="checkbox" checked>
+                            <label class="address-label" for="create">Shipping Address is Different</label>
+                        </form>
+                    </div>
+
+                    <div>
+                        <form>
+                            <input id="First-name" type="text" name="First name" value="First name*">
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="Last-name" type="text" name="Last name" value="Last name*">
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <input id="email" type="text" name="email" value="E-Mail">
+                        </form>
+                    </div>
+                    <div>
+                        <form class="Street-form">
+                            <input id="street" type="text" name="Street" value="Street*">
+                            <input id="houses" type="text" name="Houses" value="Houses*">
+                        </form>
+                    </div>
+                    <div>
+                        <form class="PostCode-label">
+                            <input id="postcode" type="text" name="PostCode" value="PostCode*">
+                            <input id="location" type="text" name="Location" value="Location*">
+                        </form>
+                    </div>
+                    <div>
+                        <form class="Select-Country">
+                            <input id="select" type="text" name="Select-Country" value="Select Country">
+                        </form>
+                    </div>
+                </div>
+                <div class="form-pay">
+                    <div class="form-pay-bg">
+                        <div class="form-paypal">
+                            <img class="form-paypal-img" src="./img/paypal.png" alt="">
+                            <p class="form-paypal-p">Pay Pal</p>
+                        </div>
+                        <div>
+                            <form class="form-pay-f">
+                                <input id="paypal" type="checkbox">
+                                <label for="paypal"></label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form-pay-bg2">
+                        <div class="form-paypal">
+                            <img class="form-paypal-img" src="./img/paypal.png" alt="">
+                            <p class="form-paypal-p">Pay Pal Plus</p>
+                        </div>
+                        <div>
+                            <form class="form-pay-f">
+                                <input id="paypal" type="checkbox">
+                                <label for="paypal"></label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="d-flex-colomn">
+                        <div class="form-pay-bg3">
+                            <div class="form-paypal">
+                                <img class="form-paypal-img" src="./img/saudi.png" alt="">
+                                <p class="form-paypal-p">Investment Bank</p>
+                            </div>
+                            <div>
+                                <form class="form-pay-f">
+                                    <input id="paypal" type="checkbox">
+                                    <label for="paypal"></label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="creditcard">
+                            <form>
+                                <input id="creditcard" type="text" name="Credit card number*"
+                                    value="Credit card number*">
+                            </form>
+                        </div>
+                        <div>
+                            <form class="cvc-form">
+                                <input id="expiry" type="text" name="expiry" value="Expiry Date*">
+                                <input id="cvc" type="text" name="CVC / CVV*" value="CVC / CVV*">
+                            </form>
+                        </div>
+                        <div class="cardholder-form">
+                            <form>
+                                <input id="cardholder" type="text" name="Name of Cardholder*"
+                                    value="Name of Cardholder*">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-three">
+                    <div class="form-three-h">
+                        <h2 class="form-three-h1">Article</h2>
+                        <h2 class="form-three-h1">Total SAR</h2>
+                    </div>
+                    <div>
+                        <div class="lorem1">
+                            <img class="lorem-img" src="./img/last-holl.png" alt="">
+                            <div class="lorem-col">
+                                <p class="lorem-col-p1">1x</p>
+                                <p class="lorem-col-p2">Lorem</p>
+                                <p class="lorem-col-p3">Lorem Ipsum</p>
+                                <p class="lorem-col-p4">Ipsum</p>
+                            </div>
+                            <p class="lorem-p">690.00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="lorem2">
+                            <img class="lorem-img" src="./img/last-holl.png" alt="">
+                            <div class="lorem-col">
+                                <p class="lorem-col-p1">1x</p>
+                                <p class="lorem-col-p2">Lorem</p>
+                                <p class="lorem-col-p3">Lorem Ipsum</p>
+                                <p class="lorem-col-p4">Ipsum</p>
+                            </div>
+                            <p class="lorem-p">690.00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="lorem2">
+                            <img class="lorem-img" src="./img/last-holl.png" alt="">
+                            <div class="lorem-col">
+                                <p class="lorem-col-p1">1x</p>
+                                <p class="lorem-col-p2">Lorem</p>
+                                <p class="lorem-col-p3">Lorem Ipsum</p>
+                                <p class="lorem-col-p4">Ipsum</p>
+                            </div>
+                            <p class="lorem-p">690.00</p>
+                        </div>
+                    </div>
+                    <div class="optional-question">
+                        <div class="question">
+                            <p class="question-p1">Do you have a voucher?</p>
+                            <p class="question-p2">(Optional)</p>
+                        </div>
+                        <div class="optional-button-code">
+                            <button class="optional-button-code-white">Enter the code</button>
+                            <button class="optional-button-code-black">Redeem</button>
+                        </div>
+                    </div>
+                    <div class="subtotall">
+                        <p class="subtota-p1">Subtotal</p>
+                        <p class="subtota-p2">2.070.00</p>
+                    </div>
+                    <div class="ship">
+                        <p class="ship-p1">shippment</p>
+                        <p class="ship-p2">103.50</p>
+                    </div>
+                    <div class="time-bg">
+                        <p class="time">Delivery time 2 - 4 working days</p>
+                    </div>
+                    <div class="checkout">
+                        <button class="checkout-btn">Checkout</button>
+                        <div>
+                            <form class="createe-form">
+                                <input id="createe" type="checkbox">
+                                <label class="createe-label" for="createe">T&C is simply dummy text of the printing and
+                                    typesetting industry</label>
+                            </form>
+                        </div>
+                        <div class="tot-price-p">
+                            <p class="tot-price-p1">Total</p>
+                            <p class="tot-price-p2">143,910.00</p>
+                        </div>
+                        <div class="vat">
+                            <p class="vat-p1">(VAT)</p>
+                            <p class="vat-p2">7,195.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </section>
+            <footer class="footer-bgc">
+                <div class="containerr">
+                    <div class="contact">
+                        <div class="contact-picture">
+                            <img class="contact-logo" src="./img/logo-footer.svg" alt="">
+                        </div>
+                        <div class="mt-38">
+                            <div class="list">
+                                <p class="list-p-1">Products</p>
+                                <img class="list-img-1" src="./img/text-1.svg" alt="">
+                            </div>
+                            <div class="list">
+                                <p class="list-p-2">Services</p>
+                                <img class="list-img-1" src="./img/text-2.svg" alt="">
+                            </div>
+                            <div class="list-inf">
+                                <p class="list-p-3">Contact information</p>
+                                <img class="list-img-1" src="./img/text-3.svg" alt="">
+                            </div>
+                            <div class="list-line"></div>
+                        </div>
+                    </div>
+                    <div class="list-desktop">
+                        <div class="list-desktop-pictures">
+                            <img class="list-desktop-pictures-img" src="./img/facebook.svg" alt="">
+                            <img class="list-desktop-pictures-img2" src="./img/twitter.svg" alt="">
+                            <img class="list-desktop-pictures-img3" src="./img/inst.svg" alt="">
+                        </div>
+                        <div class="list-desktop-p">
+                            <div>
+                                <p class="list-desktop-p-end">Copyright © 2022 | All Rights Reserved.</p>
+                            </div>
+                            <div>
+                                <p class="list-desktop-p-end">Created with love by thecreation.design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+        
+          
+            
+
+</body>
+
+</html>
