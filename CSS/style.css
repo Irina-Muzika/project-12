@@ -185,6 +185,12 @@
   transform: translateX(-50%);
   gap: 20px;
 }
+@media screen and (min-width: 768px) {
+  .main-container-info {
+    width: 600px;
+    padding: 10px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .main-container-info {
     transform: translateX(0);
@@ -1347,16 +1353,20 @@
   height: 308px;
   margin: auto;
   position: relative;
-  transform: translateY(20%);
+  margin-bottom: -100px;
   z-index: 2;
-  margin-left: -80px;
+}
+@media screen and (min-width: 768px) {
+  .box-cnt {
+    margin-bottom: 60px;
+  }
 }
 @media screen and (min-width: 768px) {
   .box-cnt {
     width: 692px;
     height: 522px;
     background: #F9F9F9;
-    transform: translateY(0);
+    margin-left: -80px;
     margin-right: auto;
   }
 }
@@ -1421,14 +1431,35 @@
     margin: 60px 0 0 86px;
   }
 }
+@media screen and (min-width: 768px) {
+  .box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .box-img-last-build {
-  position: unset;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 450px) {
+  .box-img-last-build {
+    position: unset;
+    width: 100%;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .box-img-last-build {
+    position: unset;
     width: 817px;
     height: 649px;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 }
 .box-last-flower {
@@ -1438,23 +1469,27 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 450px) {
   .box-last-flower {
     display: none;
   }
 }
 
 .footer-bgc {
-  margin-top: 640px;
+  margin-top: 660px;
   min-height: 345px;
   background-color: #111010;
 }
+@media screen and (min-width: 450px) {
+  .footer-bgc {
+    margin-top: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer-bgc {
-    padding-left: 250px;
-    padding-right: 250px;
-    margin-top: 500px;
+    margin-top: 120px;
   }
 }
 
@@ -1467,8 +1502,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 310px;
     padding-top: 68px;
-    text-align: start;
   }
 }
 
@@ -1480,7 +1515,6 @@
 }
 
 .contact-logo {
-  text-align: center;
   width: 122px;
   height: 43px;
 }
@@ -1669,6 +1703,6 @@
   .mt-38 {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 192px;
   }
 }/*# sourceMappingURL=style.css.map */
